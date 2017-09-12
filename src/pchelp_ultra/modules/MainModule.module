@@ -1,0 +1,17 @@
+{
+  "props": [],
+  "components": {
+    "systemTray": {
+      "type": "script\\SystemTrayScript",
+      "x": 304,
+      "y": 256,
+      "props": {
+        "disabled": false,
+        "visible": "1",
+        "icon": ".data/img/ModeRotate2.jpg",
+        "manualExit": false,
+        "alwaysShowing": false
+      }
+    }
+  }
+}

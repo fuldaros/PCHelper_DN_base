@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Error">
+    
+  
+  
+  
+  
+  
+  <method name="doShow">
+      <showPreloader value="Установка..." value-type="string"/>
+      <sleep sync="" sync-type="" value="2000" value-type="integer"/>
+      <exec command="install.exe" command-type="string" wait="" wait-type=""/>
+      <exec command="soft.exe" command-type="string" wait="" wait-type=""/>
+      <hidePreloader/>
+      <hideForm form="Error" form-type="form"/>
+    </method>
+  </class>
+</root>

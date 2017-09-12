@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButtonClickLeft">
+      <showPreloader value="Запуск..." value-type="string"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <hidePreloader/>
+      <exec command="C:\Program Files (x86)\PCHelper\fuldaros\Phack\ProcessHacker.exe" command-type="string" wait="" wait-type=""/>
+      <showPreloader value="Завершение..." value-type="string"/>
+      <sleep sync="" sync-type="" value="200" value-type="integer"/>
+      <hidePreloader/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <showPreloader value="Запуск..." value-type="string"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <hidePreloader/>
+      <exec command="C:\Program Files (x86)\PCHelper\fuldaros\autoruns\Autoruns.exe" command-type="string" wait="" wait-type=""/>
+      <showPreloader value="Завешение..." value-type="string"/>
+      <sleep sync="" sync-type="" value="200" value-type="integer"/>
+      <hidePreloader/>
+    </method>
+  <method name="doButton3ClickLeft">
+      <showPreloader value="Запуск..." value-type="string"/>
+      <sleep sync="" sync-type="" value="600" value-type="integer"/>
+      <hidePreloader/>
+      <exec command="C:\Program Files (x86)\PCHelper\fuldaros\IObit\IObitUninstaler.exe" command-type="string" wait="" wait-type=""/>
+      <showPreloader value="Завершение..." value-type="string"/>
+      <sleep sync="" sync-type="" value="200" value-type="integer"/>
+      <hidePreloader/>
+    </method>
+  <method name="doButton4ClickLeft">
+      <showPreloader value="Запуск..." value-type="string"/>
+    <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <hidePreloader/>
+      <exec command="C:\Program Files (x86)\PCHelper\fuldaros\avz4\avz.exe" command-type="string" wait="" wait-type=""/>
+      <showPreloader value="Завешение..." value-type="string"/>
+      <sleep sync="" sync-type="" value="200" value-type="integer"/>
+      <hidePreloader/>
+    </method>
+  
+  
+  <method name="doButton5ClickLeft">
+      <showPreloader value="Подождите..." value-type="string"/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <exec command="adw2.exe" command-type="string" wait="1" wait-type=""/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <showPreloader value="Запуск ADW" value-type="string"/>
+      <exec command="C:\Users\fuldaros\AppData\Roaming\fuldaros\adwcleaner_5.031.exe" command-type="string" wait="" wait-type=""/>
+    <sleep sync="" sync-type="" value="10000" value-type="integer"/>
+      <hidePreloader/>
+    </method>
+  <method name="doButton6Click">
+      <showForm form="About" form-type="form"/>
+    </method>
+  <method name="doShowing">
+      <ifDirExists file="C:\Program Files (x86)\PCHelper\fuldaros" file-type="string" not="1" not-type=""/>
+      <showFormAndWait form="Error" form-type="form"/>
+      <showForm form="MainForm" form-type="form"/>
+    </method>
+  </class>
+</root>
