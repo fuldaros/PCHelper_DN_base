@@ -7,7 +7,7 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="40" layoutY="88" prefHeight="22" prefWidth="392" styleClass="label " text="Версия:&#9;&#9;&#9;&#9;beta 1(0.0.3) Portable" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="40" layoutY="88" prefHeight="22" prefWidth="392" styleClass="label " text="Версия:&#9;&#9;&#9;&#9;beta 2(0.0.5)" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="Arial Black" size="14"/>
       </font>
@@ -19,7 +19,7 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="40" layoutY="136" prefHeight="19.7421875" prefWidth="270.78515625" styleClass="label " text="Дата сборки:&#9;&#9;        07.09.2017" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="40" layoutY="136" prefHeight="19.7421875" prefWidth="270.78515625" styleClass="label " text="Дата сборки:&#9;&#9;        13.09.2017" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="Arial Black" size="14"/>
       </font>
@@ -31,7 +31,7 @@
       </font>
     </Button>
     <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="40" layoutY="160" prefHeight="19.7421875" prefWidth="270.78515625" styleClass="label " text="Номер сборки:        &#9;006" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="40" layoutY="160" prefHeight="19.7421875" prefWidth="270.78515625" styleClass="label " text="Номер сборки:        &#9;008" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="Arial Black" size="14"/>
       </font>

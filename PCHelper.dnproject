@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="fuldaros" authorOS="Windows 7" createdAt="1504559943887" ideName="DevelNext" ideVersion="16.6.0" ideVersionHash="2017072312" name="PCHelper" packageName="pchelp_ultra" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1504718038792">
+<project author="fuldaros" authorOS="Windows 7" createdAt="1504559943887" ideName="DevelNext" ideVersion="16.6.0" ideVersionHash="2017072312" name="PCHelper" packageName="pchelp_ultra" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1505300420893">
   <tree>
     <expanded>
     <path src=""/>
@@ -14,9 +14,9 @@
   <openedFiles>
   <file src="PCHelper.dnproject"/>
     <file src="src/pchelp_ultra/modules/MainModule.php"/>
-    <file src="src/pchelp_ultra/forms/MainForm.php"/>
+    <file selected="1" src="src/pchelp_ultra/forms/MainForm.php"/>
     <file src="src/pchelp_ultra/forms/Error.php"/>
-    <file selected="1" src="src/pchelp_ultra/forms/About.php"/>
+    <file src="src/pchelp_ultra/forms/About.php"/>
   </openedFiles>
   <files/>
   <behaviours>
